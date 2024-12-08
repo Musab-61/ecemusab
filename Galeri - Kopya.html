@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoğraf Galerisi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('file:///C:/Users/musab/OneDrive/Masaüstü/6.%20ayımız/arka%20plan.jpg') repeat;
+            background-size: 1000px 1000px;
+            color: #fff;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #3b82f6;
+            margin-top: 50px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-item p {
+            margin-top: 5px;
+            font-size: 16px; /* Yazı boyutu */
+            font-weight: bold; /* Kalın yazı */
+            color: #000080; /* Lacivert renk */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Açık gölge */
+            text-align: center;
+        }
+
+        /* Responsive düzenlemeler */
+        @media screen and (max-width: 768px) {
+            .gallery-item {
+                width: 150px;
+            }
+
+            .gallery-item p {
+                font-size: 14px; /* Mobil için yazı boyutu biraz küçüldü */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Fotoğraf Galerisi</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 1.jpg" alt="1">
+            <p></p><br>
+            <p>Bu altı aylık her gününde seni daha çok sevdiğim serüvenin ilk buluşması (sakallarıda kesmişim güya işe alcaklardı diye)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 2.jpg" alt="2">
+            <p></p><br>
+            <p>Bizim çiçeğimiz</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 3.jpg" alt="3">
+            <p></p><br>
+            <p>Akıllarda hiç olmayan bir balo günü yaklaşık 6 ay önce hayatıma, bir daha çıkmama dilekleriyle giriş yaptın</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 4.jpg" alt="4">
+            <p></p><br>
+            <p>Sevgili olduktan sonra ilk date bebekimle sinema keyfisi ters yüz 2</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 5.jpg" alt="4">
+            <p></p><br>
+            <p>Dünya güzeli bebekimin datçaya gidişi ve ilişkimizin en zor zamanları başlıyo 1 aylık kocaman bir özlem</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 6.jpg" alt="4">
+            <p></p><br>
+            <p>Balımın bizi çizdiği resim ben de köydeyim bu sırada çay kesiyorum (bayılıyorum bu resime eline sağlık sevgilim)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 7.jpg" alt="4">
+            <p></p><br>
+            <p>Yavru kuşa daptan toplanan çiçekler</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 8.jpg" alt="4">
+            <p></p><br>
+            <p>Çaylıktan kuzucuğuma minik bir kalp</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 9.jpg" alt="4">
+            <p></p><br>
+            <p>Arada 1000 kilometre varken bizim haller</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 10.jpg" alt="4">
+            <p></p><br>
+            <p>Benim eeeeeeen sevdiğim (dön artık be kzım özlediiiiiiiikkkkkk) </p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 12.jpg" alt="4">
+            <p></p><br>
+            <p>Hayatıma kavuştum aynı zamanda 2 Eylül 2024 beyaz kafe anısı varssss</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 13.jpg" alt="4">
+            <p></p><br>
+            <p>O günün en beğendiğimiz fotoğrafı (st atıldı)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 14.jpg" alt="4">
+            <p></p><br>
+            <p>Sonunda o yıldız parkına gidildi </p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 15.jpg" alt="4">
+            <p></p><br>
+            <p>Emek emek</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 16.jpg" alt="4">
+            <p></p><br>
+            <p>Gerek kızmalı</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 17.jpg" alt="4">
+            <p></p><br>
+            <p>Gerek gülmeli (genelde ben)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 18.jpg" alt="4">
+            <p></p><br>
+            <p>Eğlenceli</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 19.jpg" alt="4">
+            <p></p><br>
+            <p>Ve çok güzel günlerimiz geçti hayatımın anlamı dünya güzelim</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 20.jpg" alt="4">
+            <p></p><br>
+            <p>Ooooooyyyyyyyyy tatlışım benim</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 21.jpg" alt="4">
+            <p></p><br>
+            <p>Bebekim benim seni çoooooooook seviyorum</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 22.jpg" alt="4">
+            <p></p><br>
+            <p>Yavruyla alışveriş ve bana hediye sweati</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 23.jpg" alt="4">
+            <p></p><br>
+            <p>Oyyyyyy güzelim benim ne düzel yatmışsın kucağıma yaa</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 24.jpg" alt="4">
+            <p></p><br>
+            <p>Balıkesirden gelen mandalinalarla otobüs beklemece</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 25.jpg" alt="4">
+            <p></p><br>
+            <p>18.Doğum günüm ve eeeeeen çok sevdiğim doğum günüm</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 26.jpg" alt="4">
+            <p></p><br>
+            <p>Sırtımızdaki battaniyede canım karıcıkımın bana hediyesi (bayılıyorum el emeği)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 27.jpg" alt="4">
+            <p></p><br>
+            <p>Şuan da cüzdanımda olan o muhtişim not ve benim duygulanış ben de seni hep çok sevicem sevgilim</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 28.jpg" alt="4">
+            <p></p><br>
+            <p>Saçlar kesildi dudulluya kütüphaneye gidildi</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 69.jpg" alt="4">
+            <p></p><br>
+            <p>Yavru kuzucukumla oynamacaaaaa (tatlıyız heee)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 29.jpg" alt="4">
+            <p></p><br>
+            <p>Acaba gerçekten o bağ çok önde diye mi rleri söyleyemiyorum ilerde bunun araştırması yapılacak</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 30.jpg" alt="4">
+            <p></p><br>
+            <p>Akşamında kavga etmiştik premses uyumuştu affettirmek için gelmiş şapşik buda bana eve gidim bakim diye bıraktığın foto tatlış sevgilim benim</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 31.jpg" alt="4">
+            <p></p><br>
+            <p>Çok yakışıyoruz sevgilim (bu fotoğraflara ilerde çocuklarımızla tekrar bakma dileklerimle)</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 32.jpg" alt="4">
+            <p></p><br>
+            <p>Duduşla oynama seansııııı</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 33.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 34.jpg" alt="4">
+            <p></p><br>
+            <p>Kavacık çorbacııııı</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 35.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 36.jpg" alt="4">
+            <p></p><br>
+            <p>Offff hacı bu güzellik ne ya her fotoğrafta bi daha aşık oluyorum</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 37.jpg" alt="4">
+            <p></p><br>
+            <p>Ümraniye küpüthanesi</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 38.jpg" alt="4">
+            <p></p><br>
+            <p>Al bunu da çeeeeeeek</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 39.jpg" alt="4">
+            <p></p><br>
+            <p>Oyyyyy tatlış bebekim benim bence çooooook yakışan gözlüğün geldiği gün</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 40.jpg" alt="4">
+            <p></p><br>
+            <p>Premses gözlüğü takmıyo gözlükle oynuyor</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 41.jpg" alt="4">
+            <p></p><br>
+            <p>Bebeğimle yıldız teknik üniyi önceden bi kolaçan ettik seneye burda beraber okuruz inşallah</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 42.jpg" alt="4">
+            <p></p><br>
+            <p>6.Ayımıza girmemizden 1 hafta önce coffy birazdan sevgilim dersine gidicek ve ben onu çok özlicem</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 43.jpg" alt="4">
+            <p></p><br>
+            <p>Offffff fena çıkmışız bayıldım</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 44.jpg" alt="4">
+            <p></p><br>
+            <p>11 kasım 2024 kavacık glorya</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 45.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 46.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 47.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 48.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 49.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 50.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 51.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 52.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 53.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 54.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 55.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 56.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 57.jpg" alt="4">
+            <p></p><br>
+            <p>uuuuuuuuu matmazel</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 58.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 59.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 60.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 61.jpg" alt="4">
+            <p></p><br>
+            <p>Benim güneşim yüzüme vuran değil yanımda olan</p>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 62.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 63.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 64.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 65.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 66.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 67.jpg" alt="4">
+            <p></p><br>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Galeri\foto 68.jpg" alt="4">
+            <p></p><br>
+        </div>
+    </div>
+</body>
+</html>

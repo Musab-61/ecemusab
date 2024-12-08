@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Önemli Yerler Haritası</title>
+    <style>
+        /* Arka plan ve genel stil ayarları */
+        body {
+            font-family: Arial, sans-serif;
+            background: url('file:///C:/Users/musab/OneDrive/Masaüstü/6.%20ayımız/arka%20plan.jpg') repeat;
+            background-size: 1000px 1000px;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px; /* Font boyutunu büyüttüm */
+            color: #3b82f6; /* Fotoğraf galerisi ile uyumlu mavi renk */
+            margin-top: 50px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        .map-container {
+            margin: 20px auto;
+            display: inline-block;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.7); /* Haritaların etrafındaki koyu arka plan */
+            padding: 10px;
+        }
+
+        iframe {
+            border: 0;
+            border-radius: 10px; /* Harita köşelerini yuvarlak yapıyoruz */
+        }
+
+        /* Responsive düzenlemeler */
+        @media screen and (max-width: 768px) {
+            iframe {
+                width: 100%;
+                height: 350px;
+            }
+
+            h1 {
+                font-size: 32px; /* Küçük ekranlarda başlık fontu daha küçük */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bizim İçin Önemli Yerler</h1>
+
+    <!-- La Vie Praline Akaretler -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504.6020912672568!2d28.99872789000397!3d41.04266375348174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab708acc45b1d%3A0x54d888f66fa6303!2sLa%20Vie%20Praline%20Akaretler!5e0!3m2!1str!2str!4v1733611560345!5m2!1str!2str" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Coffeemania Next | Metrogarden -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d532.1733312781614!2d29.179070007216122!3d41.015913832603914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacfd3ea97832f%3A0xebdb8866aae15668!2sCoffeemania%20Next%20%7C%20Metrogarden!5e0!3m2!1str!2str!4v1733611650765!5m2!1str!2str" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- WcSxbGTEsXogUGFya8Sx -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.907717336957!2d29.01268281227203!3d41.04914711678689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7ba74cafa3d%3A0x8d3f0c3423ee17e6!2zWcSxbGTEsXogUGFya8Sx!5e0!3m2!1str!2str!4v1733611739653!5m2!1str!2str" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Nevada Coffee -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.8299472860413!2d29.087809812273473!3d41.09456201398687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacb1d3ad53505%3A0xe24f9926813112a6!2sNevada%20Coffee!5e0!3m2!1str!2str!4v1733611774196!5m2!1str!2str" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Home Kitabevi -->
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4256.344644230016!2d28.974809440961398!3d41.03203412298054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba75bb274e63%3A0x8dc2bbbd94d8950c!2zSG9tZXIgS2l0YWJldmkgVmUgWWF5xLFuY8SxbMSxayBMdGQgxZ50aQ!5e0!3m2!1str!2str!4v1733612142684!5m2!1str!2str" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</body>
+</html>
+

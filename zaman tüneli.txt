@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6. Ay Zaman Tüneli</title>
+    <style>
+        /* CSS kodlarınızı buraya ekliyoruz */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('file:///C:/Users/musab/OneDrive/Masaüstü/6.%20ayımız/arka%20plan.jpg') repeat; /* Arka plana laleli desen */
+            background-size: 1000px 1000px;
+            color: #fff;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #3b82f6;
+            margin-top: 50px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        #timeline {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Zaman tünelinin arka planı */
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: rgba(255, 248, 220, 0.6); /* Daha saydam açık krem rengi */
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color: #333; /* Yazı rengini krem arka plana uygun hale getirdim */
+        }
+
+        li strong {
+            font-size: 18px;
+            color: #000080; /* Koyu kırmızı tonunda vurgu rengi */
+        }
+
+        li img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #333; /* Yazı rengini krem rengine uygun hale getirdim */
+        }
+
+        /* Responsive düzenlemeler */
+        @media screen and (max-width: 768px) {
+            #timeline {
+                width: 95%;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            li {
+                font-size: 16px;
+            }
+
+            li img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="timeline">
+        <h2>6. Ay Zaman Tüneli</h2>
+        <ul>
+            <li>
+                <strong>14 Haziran 2024 - Balo Gecesi</strong>
+                <br>
+                <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Zaman tüneli\foto1.jpg" alt="Balo Gecesi" width="300" height="auto" />
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>23 Haziran 2024 - İlk Buluşmamız</strong>
+                <br>
+                <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Zaman tüneli\foto2.jpg" alt="İlk Buluşmamız" width="400" height="auto" />
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>7 Temmuz 2024 - ARTIK SEVGİLİYİZ</strong>
+                <br>
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>28 Temmuz 2024 - Datçaya Gidişin ve 1 Aylık Hasret</strong>
+                <br>
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>1 Eylül 2024 - Datçadan Dönüş</strong>
+                <br>
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>2 Eylül 2024 - İlk Öpüşmemiz</strong>
+                <br>
+                <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Zaman tüneli\foto3.jpg" alt="İlk Öpüşmemiz" width="300" height="auto" />
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>25 Eylül 2024 - ÖZEL Bir Gün</strong>
+                <br>
+                <p></p><br>
+                <p></p><br>
+            </li>
+            <li>
+                <strong>30 Ekim 2024 - Yıldız Parkı Doğum Günü Kutlaması</strong>
+                <br>
+                <img src="C:\Users\musab\OneDrive\Masaüstü\6. ayımız\images\Zaman tüneli\foto4.jpg" alt="Doğum Günü Kutlaması" width="300" height="auto" />
+                <p></p><br>
+                <p></p><br>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
